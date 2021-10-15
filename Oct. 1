@@ -1,0 +1,13 @@
+#Author: Jonah, Date:10/1/21, Purpose: Calculate discrete probability for sample data
+
+#Calculates the binomial probability
+dbinom(4, size=12, prob=0.2)
+
+#Calculates the cumulative probability
+pbinom(4, size=12, prob=0.2)
+
+#calculate the Poisson probability, lower tail
+ppoiss(16,lambda=12)
+
+#Calculate Poisson probability, upper tail
+ppois(16, lambda=12, lower=FALSE)
